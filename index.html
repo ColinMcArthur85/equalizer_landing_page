@@ -16,7 +16,7 @@
   </head>
   <body>
     <main>
-      <div class="container__top">
+      <section class="container__top">
         <header>
           <img
             class="equalizer-logo"
@@ -32,32 +32,70 @@
           parametric EQ & volume mixer. Control bass, mids, treble, gain
           control, reverb, and more!
         </p>
-      </div>
-      <img class="app-illustration" src="Images/illustration-app.png" alt="" />
-      <div class="card__container--blk">
-        <img class="card__items--blk" src="Images/bg-pattern-2.svg" alt="" />
-      </div>
-      <div class="card__container--orange">
-        <div class="card__items--orange">
-          <h2>Premium EQ</h2>
-          <p>
-            Get expert-level control with a robust equalizer, volume mixer, and
-            spatial audio. Take your listening experience to a whole new level
-            and access all our incredible features!
-          </p>
-          <p>$4 / month</p>
-          <button>iOS Download</button>
-          <button>Android Download</button>
+      </section>
+      <section class="grid-container">
+        <div class="phone">
+          <img
+            class="app-illustration"
+            src="Images/illustration-app.png"
+            alt=""
+          />
         </div>
-      </div>
-
-      <img src="images/logo.svg" alt="Equalizer Logo" />
-      <div>
-        <p>
-          All rights reserved © Equalizer 2021 Have any problems? Contact us via
-          social media or email us at equalizer@example.com
-        </p>
-      </div>
+        <div class="card__container--blk">
+          <div class="card__items--black"></div>
+        </div>
+        <div class="card__container--orange">
+          <div class="card__items--orange">
+            <div class="card__content">
+              <h2>Premium EQ</h2>
+              <p>
+                Get expert-level control with a robust equalizer, volume mixer,
+                and spatial audio. Take your listening experience to a whole new
+                level and access all our incredible features!
+              </p>
+            </div>
+            <div class="card__price">
+              <p class="card__price--large">$4</p>
+              <p>/ month</p>
+            </div>
+            <div class="button-container">
+              <button class="button-ios">
+                <img src="/Images/icon-apple.svg" alt="" />iOS Download
+              </button>
+            </div>
+            <div class="button-container">
+              <button class="button-android">
+                <img src="/Images/icon-android.svg" alt="" />Android Download
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container__bottom">
+        <img
+          class="equalizer-logo"
+          src="images/logo.svg"
+          alt="Equalizer Logo"
+        />
+        <div>
+          <p class="font_body-2">
+            All rights reserved © Equalizer 2021 Have any problems? Contact us
+            via social media or email us at
+            <strong>equalizer@example.com</strong>
+          </p>
+        </div>
+        <div class="social-icons">
+          <div>
+            <img src="/Images/icon-facebook.svg" alt="Facebook Icon" />
+          </div>
+          <div>
+            <img src="/Images/icon-instagram.svg" alt="Instagram Icon" />
+          </div>
+          <div>
+            <img src="/Images/icon-twitter.svg" alt="Twitter Icon" />
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
